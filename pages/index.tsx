@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Hero } from "../components/Hero";
 import { Header } from "../components/Header";
+import { Cards } from "@/components/Cards";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Header />
       <Hero />
       <p className="text-3xl">Home Page</p>
+      <Cards/>
     </>
   );
 };
