@@ -8,7 +8,7 @@ export const Cards = () => {
         {/*---Tarjeta 1---*/}
         <div className="my-20 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
           {/*contenido de la tarjeta*/}
-          <div className="max-w-md mx-auto bg-white rounded-lg shadow-2xl overflow-hidden">
+          <div className="max-w-md mx-auto bg-white rounded-lg shadow-2xl overflow-hidden transform transition duration-500 hover:scale-110">
             {/*Sector de imagen*/}
             <img
               className="w-full"
