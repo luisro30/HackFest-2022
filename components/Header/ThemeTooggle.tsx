@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { useTheme } from 'next-themes';
 import clsx from 'clsx';
-import { IconButton } from './Button';
+import { IconButton } from '../Button';
 
 const SunIcon: React.FC<{ selected?: boolean; className?: string }> = ({
   selected,

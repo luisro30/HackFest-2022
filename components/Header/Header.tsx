@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import clsx from "clsx";
 import Link from "next/link";
-import { Button, IconButton } from "./Button";
+import { Button, IconButton } from "../Button";
 import { ThemeSelect, ThemeToggle } from "./ThemeTooggle";
 import Logo from "./Logo";
 
