@@ -5,8 +5,10 @@ import Link from "next/link";
 import { Button, IconButton } from "../Button";
 import { ThemeSelect, ThemeToggle } from "./ThemeTooggle";
 import Logo from "./Logo";
+import { AuthenticationDialog } from "../Login/AuthenticationDialog";
 
-export const Header = () => {
+export const Header: React.FC = () => {
+  const [showAuth, setShowAuth] = useState(false);
   return (
     <>
       <header
@@ -15,7 +17,11 @@ export const Header = () => {
       >
         <div className="flex grow-0 basis-1/3 md:hidden">
           {" "}
-          <MenuPopOver />{" "}
+          <MenuPopOver
+            className="grow-0 basis-1/3"
+            display="md:hidden"
+            setShowAuth={setShowAuth}
+          />{" "}
         </div>
         <div className="flex grow-0 basis-1/3 justify-center md:justify-start ">
           <Link href={"/#"}>
@@ -43,10 +49,20 @@ export const Header = () => {
             </Button>
           </Link>
 
-          <Button className="hidden md:block">Sign In</Button>
+          <Button
+            variant="solid"
+            className="hidden md:inline-flex"
+            onClick={() => setShowAuth(true)}
+          >
+            Sign In
+          </Button>
           <ThemeToggle />
         </div>
       </header>
+      <AuthenticationDialog
+        isOpen={showAuth}
+        onClose={() => setShowAuth(false)}
+      />
     </>
   );
 };
@@ -129,7 +145,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
                 <Button
                   variant="solid"
                   fullWidth
-                  // onClick={() => setShowAuth(true)}
+                  onClick={() => setShowAuth(true)}
                 >
                   Sign In
                 </Button>
