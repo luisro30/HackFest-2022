@@ -22,6 +22,7 @@ const Home: NextPage = () => {
       </main>
 
       <p className="text-3xl">Home Page</p>
+      <Cards/>
     </>
   );
 };
