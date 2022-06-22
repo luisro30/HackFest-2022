@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <>
       <header
-        className="sticky inset-x-0 top-0 z-20 flex items-center
+        className="rounded-div max-w-[1140px] sticky inset-x-0 top-0 z-20 flex items-center
       justify-between bg-white py-2 px-2 shadow-lg sm:py-3 sm:px-8"
       >
         <div className="flex grow-0 basis-1/3 md:hidden">
@@ -101,7 +101,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
             <Dialog.Overlay className="fixed inset-0 bg-black/20 backdrop-blur-sm dark:bg-gray-900/80" />
           </Transition.Child>
 
-          <div className="fixed top-0 bottom-0 left-0 w-full max-w-xs rounded-r-xl bg-white p-6 shadow-lg dark:bg-white-800 ">
+          <div className="rounded-div fixed top-0 bottom-0 left-0 w-full max-w-xs rounded-r-xl bg-white p-6 shadow-lg dark:bg-white-800 ">
             <a className="mx-auto mt-4 flex w-[140px] justify-center">
               <Logo />
             </a>

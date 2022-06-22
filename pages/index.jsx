@@ -2,7 +2,7 @@ import { CardInfo } from "@/components/Banner/CardInfo";
 import Hero from "@/components/Banner/HeroBanner";
 import { Cards } from "@/components/Cards/Cards";
 import { Header } from "@/components/Header/Header";
-
+import Navbar from "../components/Header/Navbar"
 import { ThemeProvider } from "@/context/ThemeContext";
 
 function Home() {
