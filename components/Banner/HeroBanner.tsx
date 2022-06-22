@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Button, IconButton } from "../Button";
 import { Transition } from "@headlessui/react";
+import img from "../../assets/guate.jpg"
 
 const Hero = () => {
   const [showBanner, setShowBanner] = useState(true);
@@ -9,7 +10,7 @@ const Hero = () => {
     <>
       <div className="relative h-[640px] w-full bg-red-500/20 sm:h-[55vh] md:h-[440px]">
         <Image
-          src="/img/corporate.jpg"
+          src={img}
           alt="corporate"
           layout="fill"
           objectFit="cover"
