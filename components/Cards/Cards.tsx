@@ -4,29 +4,29 @@ import Link from "next/link"
 
 const topCompaniesItems = [
   {
-    title: "The Coldest Sunset",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image:"https://media.istockphoto.com/photos/couple-eating-lunch-with-fresh-salad-and-appetizers-picture-id944478708?s=612x612",
+    title: "Cuidado con los azúcares",
+    info: "La OMS hace énfasis en la importancia de reducir el consumo de azúcares (azúcar de mesa, jarabes o bebidas azucaradas). Ya que la ingesta excesiva de ellos puede aumentar el riesgo de sufrir obesidad y diabetes. Estos alimentos solo pueden constituir un 10% o menos de tu ingesta calórica diaria. Esto equivale a un poco menos de 250 mL de tu gaseosa favorita",
+    image:"https://as2.ftcdn.net/v2/jpg/00/53/82/49/1000_F_53824994_QabeBEiVbtqI7tOZ9VJdd6FPgVCSQyqh.jpg",
   },
   {
-    title: "The Coldest Sunset",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image:"https://as1.ftcdn.net/v2/jpg/02/54/45/12/1000_F_254451278_7AAYmhYkBEVQ9MYnZYIomTI5WdFCif1g.jpg",
+    title: "Vigila la porción de grasas saturadas",
+    info: "Las grasas saturadas son condenadas por muchos, pero la verdad es que puedes comer 1 gramo de ellas cada día sin problema. Sin embargo, lo más recomendable es que uses las MCTs (triglicéridos de cadena media) que se encuentran, por ejemplo, en el aceite de coco. Estas proporcionan energía para tu cuerpo y pueden aumentar los niveles de colesterol HDL o “colesterol bueno.”",
+    image:"https://as1.ftcdn.net/v2/jpg/01/18/61/22/1000_F_118612226_J9RojAIDkTn2nKQlGJzEuCZdTkF2R3Pa.jpg",
   },
   {
-    title: "The Coldest Sunset",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image:"https://as1.ftcdn.net/v2/jpg/03/21/34/26/1000_F_321342613_tX7IK69S1SK3XD3ZzWQUnaaDW36jR2nA.jpg",
+    title: "Toma suficiente agua",
+    info: "Todas las células del cuerpo necesitan de agua para funcionar, por eso es esencial ingerir suficiente. Una adecuada hidratación te puede ayudar a mejorar tu digestión, la función de tus riñones y lucir una piel más hidratada. Lo ideal es que consumas 2,7 litros de agua potable al día si eres mujer y 3,7 si eres hombre. Aquí se incluye el agua de los alimentos, que representa aproximadamente un 20% del total.",
+    image:"https://as1.ftcdn.net/v2/jpg/03/62/49/32/1000_F_362493206_CF9lyv9zmbHRB4vZU32iEdIRdUMNlfQo.jpg",
   },
   {
-    title: "The Coldest Sunset",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image:"https://as2.ftcdn.net/v2/jpg/02/78/16/95/1000_F_278169511_9loolviiWhV9oEqqUBAgMTtZjtK3fPVf.jpg",
+    title: "Comer fibra",
+    info: "La fibra puede ayudarte a mantener la salud de tu sistema digestivo y controlar los niveles de colesterol y azúcar en sangre. Las mujeres necesitan consumir de 21 a 25 gramos de fibra a diario y los hombres de 30 a 38 gramos diarios.",
+    image:"https://as2.ftcdn.net/v2/jpg/00/84/87/65/1000_F_84876559_RydJuaYdPf3lgdAB32FYCefZfyebaYAr.jpg",
   },
   {
-    title: "The Coldest Sunset",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-    image:"https://as1.ftcdn.net/v2/jpg/03/25/35/08/1000_F_325350805_D8PVU73qs1dj5TdWgm9IpuAjJ7sgHacK.jpg",
+    title: "Incorporar más proteína vegetal",
+    info: "Los productos vegetales son los protagonistas en una dieta sana diaria. No solo las frutas y verduras, también otros alimentos vegetales como tubérculos, legumbres, cereales y frutos secos. Precisamente estos últimos tres alimentos son especialmente ricos en proteínas vegetales.",
+    image:"https://as1.ftcdn.net/v2/jpg/04/42/34/66/1000_F_442346615_Txxr1SLA8Iu8tNVBgnpv0Wbr0Ltq8cHk.jpg",
   },
 ];
 
