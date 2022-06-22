@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "@/components/Banner/HeroBanner";
 import { Header } from "@/components/Header/Header";
 import { CardInfo } from "@/components/Banner/CardInfo";
+import { Cards } from "@/components/Cards/Cards";
 
 const Home: NextPage = () => {
   return (
