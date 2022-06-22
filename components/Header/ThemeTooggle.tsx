@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { useTheme } from 'next-themes';
 import clsx from 'clsx';
-import { IconButton } from './Button';
+import { IconButton } from '../Button';
 
 const SunIcon: React.FC<{ selected?: boolean; className?: string }> = ({
   selected,
@@ -184,15 +184,13 @@ export function ThemeSelect() {
     <div className='flex items-center justify-between'>
       <label
         htmlFor='theme'
-        className='font-normal text-green-700 dark:text-green-400'
+        className='font-normal text-gray-700 dark:text-gray-800'
       >
         Switch theme
       </label>
       <div className='dark:highlight-white/5 relative flex items-center rounded-lg p-2 font-semibold text-green-700 shadow-sm ring-1 ring-gray-900/10 dark:bg-green-600 dark:text-green-200 dark:ring-0'>
         <SunIcon className='mr-2 h-6 w-6 dark:hidden' />
         <MoonIcon className='mr-2 hidden h-6 w-6 dark:block' />
-
-        {option!.label}
         <svg className='ml-2 h-6 w-6 text-green-400' fill='none'>
           <path
             d='m15 11-3 3-3-3'
