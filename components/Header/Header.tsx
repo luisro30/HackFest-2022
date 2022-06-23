@@ -27,12 +27,12 @@ export const Header = () => {
             </a>
           </Link>
           <div className="ml-10 hidden gap-2 md:ml-2 md:flex">
-            <Link href="/#" passHref>
+            <Link href="/about" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
-                Option 1
+                Sobre nosotros
               </Button>
             </Link>
-            <Link href="/#" passHref>
+            <Link href="/" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
                 Option 2
               </Button>
