@@ -56,8 +56,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     let btnSolid = ["bg-green-600", "hover:bg-green-700", "text-white"];
     let btnOutline = [
       "dark:text-white",
-      "hover:text-indigo-700",
-      "hover:dark:text-indigo-700",
+      "hover:text-green-700",
+      "hover:dark:text-green-700",
       "bg-transparent",
       "hover:bg-indigo-50",
       "border",
@@ -65,7 +65,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ];
     let btnGhost = [
       "bg-transparent",
-      "dark:text-white",
+      "dark:text-green",
       "hover:bg-indigo-50",
       "hover:text-indigo-700",
       "hover:dark:text-indigo-700",
