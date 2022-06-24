@@ -9,11 +9,11 @@ const ThemeToggle = () => {
     <div className='p-2'>
       {theme === 'dark' ? (
         <div className='flex items-center cursor-pointer' onClick={()=> setTheme(theme === 'dark' ? 'light' : 'dark')}>
-          <HiSun className='text-primary text-2xl mr-2' /> Modo Claro
+          <HiSun className='text-primary text-2xl mr-2' />
         </div>
       ) : (
         <div className='flex items-center cursor-pointer' onClick={()=> setTheme(theme === 'dark' ? 'light' : 'dark')}>
-          <HiMoon className='text-primary text-2xl mr-2' /> Modo Oscuro
+          <HiMoon className='text-primary text-2xl mr-2' />
         </div>
       )}
     </div>
