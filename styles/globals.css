@@ -10,6 +10,7 @@
   @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2  w-full mx-auto
 }
 
+/** Modo Oscuro **/
 .dark {
   --color-bg-primary: #2d3748;
   --color-bg-primary: #2d3748;
@@ -30,6 +31,9 @@
   --color-bg-input: #edf2f7;
   --color-bg-button: #2b6cb0;
 }
+
+
+/** Modo Oscuro **/
 
 .card-group li:nth-of-type(1) {
   @apply text-light-grayish-blue;

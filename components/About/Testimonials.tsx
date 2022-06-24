@@ -24,7 +24,7 @@ function Avatar({ img, name, skill }: Person) {
           borderColor: "var(--card-border)",
         }}
       >
-        <img className="w-full h-full" src={img} alt={`${name}'s avatar`} />
+        <img className="w-full h-full" src={img} alt={`${name}`} />
       </div>
       <div className="flex flex-col justify-center">
         <h2>{name}</h2>
@@ -66,8 +66,8 @@ function Testimonials() {
         className="flex flex-col lg:grid gap-6 card-group"
         style={{
           gridTemplateAreas: `
-                        'A A B E'
-                        'C D D E'
+                        "A A B E"
+                        "C D D E"
                     `,
         }}
       >
