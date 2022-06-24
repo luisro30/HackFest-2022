@@ -18,7 +18,7 @@ export const Menu = () => {
   return (
         <div>
         {topCompaniesItems.map((item, i) => (
-            <Link href="#" key={1}>
+            <Link href="#" key={i}>
             <div className="flex flex-col my-20 md:flex-row">
                 <img
                 className="rounded-lg shadow-2xl"
