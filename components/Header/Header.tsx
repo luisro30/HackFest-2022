@@ -7,8 +7,6 @@ import { Button, IconButton } from "../Button";
 import Logo from "./Logo";
 import ThemeToggle from "../ThemeToggle";
 
-
-
 export const Header = () => {
   return (
     <>
@@ -32,9 +30,9 @@ export const Header = () => {
                 Acerca de
               </Button>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/salud" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
-                Option 2
+                Salud y Bienestar
               </Button>
             </Link>
           </div>
@@ -116,17 +114,15 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
               </li>
               <li className="group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50">
                 <span className="absolute h-full w-2 bg-green-700 opacity-0 transition-all group-hover:opacity-100" />
-                <Link href="/#" passHref>
+                <Link href="/salud" passHref>
                   <a className="w-full font-medium transition-all group-hover:pl-3">
-                    Option 2
+                    Salud y Bienestar
                   </a>
                 </Link>
               </li>
             </ul>
 
-            <div className="mt-6 border-t border-gray-200 pt-6 dark:border-gray-200/10">
-          
-            </div>
+            <div className="mt-6 border-t border-gray-200 pt-6 dark:border-gray-200/10"></div>
             <ul className="mt-8 space-y-3 border-t border-gray-200 dark:border-gray-200/10">
               <li>
                 <Button
