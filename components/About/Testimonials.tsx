@@ -86,7 +86,7 @@ function Testimonials() {
                     <Avatar {...user.person} />
                   </header>
                   <h3 className="text-xl leading-6">{user.quote}</h3>
-                  <p className="opacity-70">"{user.content}"</p>
+                  <p className="opacity-70">{user.content}</p>
                 </div>
                 {index === 0 && (
                   <img
