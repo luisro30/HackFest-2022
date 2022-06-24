@@ -7,6 +7,11 @@ const topCompaniesItems = [
     title: "La importancia del ejercicio",
     info: "La actividad física regular puede mejorar la fuerza muscular y aumentar la resistencia.",
   },
+  {
+    img: "https://image.shutterstock.com/image-photo/pediatrician-giving-little-baby-injection-600w-1336328633.jpg",
+    title: "La importancia de las vacunas",
+    info: "Las vacunas constituyen una de las medidas sanitarias que mayor beneficio ha producido y sigue produciendo a la humanidad, previenen enfermedades que antes causaban grandes epidemias, muertes y secuelas.",
+  },
 ];
 
 export const Menu = () => {
@@ -14,7 +19,7 @@ export const Menu = () => {
         <div>
         {topCompaniesItems.map((item, i) => (
             <Link href="#" key={1}>
-            <div className="flex flex-col  md:flex-row">
+            <div className="flex flex-col my-20 md:flex-row">
                 <img
                 className="rounded-lg shadow-2xl"
                 src={item.img}
