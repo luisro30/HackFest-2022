@@ -29,7 +29,7 @@ export const Header = () => {
           <div className="ml-10 hidden gap-2 md:ml-2 md:flex">
             <Link href="/about" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
-                Sobre nosotros
+                Acerca de
               </Button>
             </Link>
             <Link href="/" passHref>
@@ -108,9 +108,9 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
             <ul className="mt-8 space-y-3">
               <li className="group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50">
                 <span className="absolute h-full w-2 bg-green-700 opacity-0 transition-all group-hover:opacity-100" />
-                <Link href="/#" passHref>
+                <Link href="/about" passHref>
                   <a className="w-full font-medium transition-all group-hover:pl-3">
-                    Option 1
+                    Acerca de
                   </a>
                 </Link>
               </li>
