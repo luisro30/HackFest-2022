@@ -10,6 +10,10 @@
   @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2  w-full mx-auto
 }
 
+.dark-div {
+  @apply  bg-primary 
+}
+
 /** Modo Oscuro **/
 .dark {
   --color-bg-primary: #2d3748;
