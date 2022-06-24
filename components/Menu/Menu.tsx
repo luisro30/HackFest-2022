@@ -11,25 +11,12 @@ const topCompaniesItems = [
 
 export const Menu = () => {
   return (
-    <div className="container my-12 mx-auto w-3/5 px-4  md:px-12">
-      <div className="-mx-1 lg:-mx-4">
-        {/*---Estructura menu---*/}
-        <div className="my-20 px-1  bg-blue-500">
-          {/*Contenido menu*/}
-          <div className="flex flex-wrap">
-            {/*Imagen*/}
-            <div className="h-96"><img className="w-96 h-96 rounded-lg shadow-2xl" src="https://image.shutterstock.com/image-photo/girl-does-sports-mask-on-600w-1721395486.jpg" /></div>
-            {/*Texto */}
-            <div className="bg-blue-800 w-1/4 m-auto">
-              {/*Titulo*/}
-              <div className="font-bold text-xl mb-2">Ejercicio</div>
-              {/*Parrafo */}
-              <p className="text-gray-700 text-base">Contenido</p>
-            </div>
-          </div>
-        </div>
-        {/*---Fin tarjet---*/}
-      </div>
+    <div className="flex flex-col  md:flex-row">
+    <img className="" src="https://image.shutterstock.com/image-photo/girl-does-sports-mask-on-600w-1721395486.jpg"/>
+    <div className="justify-between p-6  mx-8">
+        <h1 className="mb-2 text-2xl font-bold tracking-tight  dark:text-white">Noteworthy technology acquisitions 2021</h1>
+        <p className="mb-4 font-normal">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+    </div>
     </div>
   );
 };
