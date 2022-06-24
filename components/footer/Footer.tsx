@@ -1,21 +1,25 @@
 import React from 'react'
+import Image from 'next/image'
+import img from "../../assets/Github.gif"
 
 export const Footer = () => {
   return (
     <>
-    <footer
-      className="bg-green-700 inset-x-0 top-0 flex justify-between justify-items-center items-center p-3.5 flex-wrap">
-        <div>
-          <img className='h-48 p-3.5' src="https://www.indesgua.org.gt/wp-content/uploads/2018/03/Universidad-Rafael-Land%C3%ADvar.png" alt="Logo Landivar" />
-        </div>
-        <div className='text-white text-xl w-80 p-3.5'>
-          <p>Pagina realizada por los estudiantes de la Universidad Rafael Landivar, Campus Quetzaltenago, con el proposito
-            de dar informacion sobre la Desnutricion en Guatemala. </p>
-        </div>
-        <div className='p-3.5 '>
-          <iframe width="440" height="215" src="https://www.youtube.com/embed/JPWwps6ZUOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
+     <footer className=' bg-gradient-to-r from-green-500 to-green-800 flex gap-3 flex-wrap '>
+     <div className='text-center py-5 text-white text-lg'>
+        <p>Si quieres ser colaborador puedes dar click al logo de GitHub</p>
+      </div>
+     <div className='w-64 text-center py-5 text-white text-lg'>
+        <p>“Aquellos que piensan que no tienen tiempo para una 
+          alimentación saludable tarde o temprano encontrarán 
+          tiempo para la enfermedad”</p>
+      </div>
+      <div className="w-20 ">
+      <Image
+        src={img}
+        alt= "corporate"
+      />
+     </div>
     </footer>
     </>
   )

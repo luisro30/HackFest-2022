@@ -5,6 +5,7 @@ import { Header } from "@/components/Header/Header";
 import Navbar from "../components/Header/Navbar"
 import { ThemeProvider } from "@/context/ThemeContext";
 import About from "@/components/About/About";
+import { Footer } from "@/components/Footer/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
           <Cards />
         </div>
       </main>
+      <Footer />
     </ThemeProvider>
   );
 }
