@@ -1,0 +1,47 @@
+[
+    {
+        "person": {
+            "name": "Gustavo",
+            "img": "https://avatars.githubusercontent.com/u/42653934?v=4",
+            "skill": "Desarrollador FullStack"
+        },
+        "quote": "tema",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis tincidunt. Ut et sapien ac velit bibendum maximus. Aenean quam justo, varius a hendrerit eu, egestas a lacus. Sed placerat ante vel enim consectetur venenatis. In nec quam scelerisque, pulvinar ante eget, sodales velit. Vestibulum congue ac sapien nec ornare. Fusce tempor velit felis, non finibus sapien sagittis at."
+    },
+    {
+        "person": {
+            "name": "Jose Daniel",
+            "img": "https://avatars.githubusercontent.com/u/42653664?v=4",
+            "skill": "Desarrollador FullStack"
+        },
+        "quote": "TEMA",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis tincidunt. Ut et sapien ac velit bibendum maximus. Aenean quam justo, varius a hendrerit eu, egestas a lacus. Sed placerat ante vel enim consectetur venenatis. In nec quam scelerisque, pulvinar ante eget, sodales velit. Vestibulum congue ac sapien nec ornare. Fusce tempor velit felis, non finibus sapien sagittis at."
+    },
+    {
+        "person": {
+            "name": "Luis",
+            "img": "https://avatars.githubusercontent.com/u/38712078?v=4",
+            "skill": "Desarrollador FullStack"
+        },
+        "quote": "TEMA",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis ti"
+    },
+    {
+        "person": {
+            "name": "Donald Abac",
+            "img": "https://avatars.githubusercontent.com/u/43415220?v=4",
+            "skill": "Desarrollador FullStack"
+        },
+        "quote": "TEMA",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, ."
+    },
+    {
+        "person": {
+            "name": "Erick Lima",
+            "img": "https://avatars.githubusercontent.com/u/48220959?v=4",
+            "skill": "Desarrollador FullStack"
+        },
+        "quote": "TEMA",
+        "content": "s mollis tincidunt. Ut et sapien ac velit bibendum maximus. Aenean quam justo, varius a hee vel enim consectetur venenatis. In nec quam scelerisque, pulvinar ante eget, sodales velit. Vestibulum congue ac sapien nec ornare. Fusce tempor velit felis, non finibus sapien sagittis at."
+    }
+]

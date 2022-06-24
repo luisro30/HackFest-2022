@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "@emotion/styled";
 const StaffImages = [
   {
     src: "https://avatars.githubusercontent.com/u/42653934?v=4",
@@ -31,7 +30,8 @@ const StaffImages = [
 const About = () => {
   return (
     <div>
-      <StaffImageContainer>
+      <div className="flex flex-row items-center justify-center flex-wrap gap-8"
+      >
         {StaffImages &&
           StaffImages.map((image, index) => {
             return (
@@ -41,47 +41,21 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <StaffImg
+                <img className="rounded-full w-40	transform transition duration-500 hover:scale-110 cursor-pointer"
                   src={`${image.src}`}
                   alt={image.githubUsername}
                 />
-                <p
-                  style={{
-                    textAlign: "center",
-                    fontFamily: "Fira Sans",
-                    marginTop: "1rem",
-                    fontWeight: "bold",
-                  }}
+                <p className="text-center mt-4 font-bold"
                 >
                   {image.discordUsername}
                 </p>
               </a>
             );
           })}
-      </StaffImageContainer>
+      </div>
     </div>
   );
 };
 
-const StaffImg = styled.img`
-  border-radius: 50%;
-  width: 10rem;
-  height: 10rem;
-  /* @media all and (max-width: 900px) {
-    height: 8.6rem;
-  } */
-`;
-
-const StaffImageContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  @media all and (max-width: 350px) {
-    gap: 1rem;
-  }
-`;
 
 export default About;
