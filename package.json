@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.6.0",
     "@headlessui/react": "^1.4.2",
     "@tailwindcss/forms": "^0.4.0",
     "clsx": "^1.1.1",
