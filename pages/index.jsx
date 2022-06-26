@@ -4,6 +4,7 @@ import { Cards } from "@/components/Cards/Cards";
 import { Header } from "@/components/Header/Header";
 import Navbar from "../components/Header/Navbar"
 import { ThemeProvider } from "@/context/ThemeContext";
+import Ready from "@/components/Ready";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
           <Cards />
         </div>
       </main>
+      <Ready />
     </ThemeProvider>
   );
 }
