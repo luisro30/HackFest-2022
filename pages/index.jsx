@@ -4,6 +4,7 @@ import { Cards } from "@/components/Cards/Cards";
 import { Menu } from "@/components/Menu/Menu";
 import { Header } from "@/components/Header/Header";
 import { ThemeProvider } from "@/context/ThemeContext";
+import { Footer } from "@/components/footer/Footer";
 import Ready from "@/components/Ready";
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
         </div>
       </main>
       <Ready />
+      <Footer />
     </ThemeProvider>
   );
 }

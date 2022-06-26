@@ -30,10 +30,10 @@
         "person": {
             "name": "Donald Abac",
             "img": "https://avatars.githubusercontent.com/u/43415220?v=4",
-            "skill": "Desarrollador FullStack"
+            "skill": "Desarrollador Frontend"
         },
-        "quote": "TEMA",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, ."
+        "quote": "La importancia del ejercicio",
+        "content": "El ejercicio suministra oxígeno y nutrientes a los tejidos y ayuda a que el sistema cardiovascular funcione de manera más eficiente. Y cuando tu salud cardíaca y pulmonar mejora, tienes más energía para hacer las tareas diarias."
     },
     {
         "person": {
