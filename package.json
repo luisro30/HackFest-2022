@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.6.0",
     "@headlessui/react": "^1.4.2",
     "@tailwindcss/forms": "^0.4.0",
     "clsx": "^1.1.1",
@@ -16,8 +17,7 @@
     "next-themes": "^0.0.15",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "swiper": "^7.4.1"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "17.0.43",
