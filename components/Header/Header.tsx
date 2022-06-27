@@ -25,26 +25,25 @@ export const Header = () => {
             </a>
           </Link>
           <div className="ml-10 hidden gap-2 md:ml-2 md:flex">
-            <Link href="/about" passHref>
+            <Link href="/" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
-                Acerca de
+                Inicio
               </Button>
             </Link>
+
             <Link href="/salud" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
                 Salud y Bienestar
               </Button>
             </Link>
+            <Link href="/about" passHref>
+              <Button variant="ghost" as="a" className="hidden md:inline-flex">
+                Acerca de
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="relative flex grow-0 basis-1/3 justify-end gap-2">
-          <Link href={"/#"} passHref>
-            <Button as="a" className="hidden ">
-              For explample
-            </Button>
-          </Link>
-
-          <Button className="hidden md:block">Sign In</Button>
           <ThemeToggle />
         </div>
       </header>
@@ -106,12 +105,13 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
             <ul className="mt-8 space-y-3">
               <li className="group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50">
                 <span className="absolute h-full w-2 bg-green-700 opacity-0 transition-all group-hover:opacity-100" />
-                <Link href="/about" passHref>
+                <Link href="/" passHref>
                   <a className="w-full font-medium transition-all group-hover:pl-3">
-                    Acerca de
+                    Inicio
                   </a>
                 </Link>
               </li>
+
               <li className="group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50">
                 <span className="absolute h-full w-2 bg-green-700 opacity-0 transition-all group-hover:opacity-100" />
                 <Link href="/salud" passHref>
@@ -120,28 +120,17 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
                   </a>
                 </Link>
               </li>
-            </ul>
-
-            <div className="mt-6 border-t border-gray-200 pt-6 dark:border-gray-200/10"></div>
-            <ul className="mt-8 space-y-3 border-t border-gray-200 dark:border-gray-200/10">
-              <li>
-                <Button
-                  variant="solid"
-                  fullWidth
-                  // onClick={() => setShowAuth(true)}
-                >
-                  Sign In
-                </Button>
-              </li>
-              <li>
-                <Link href="/#" passHref>
-                  <Button as="a" variant="ghost" fullWidth>
-                    XD
-                  </Button>
+              <li className="group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50">
+                <span className="absolute h-full w-2 bg-green-700 opacity-0 transition-all group-hover:opacity-100" />
+                <Link href="/about" passHref>
+                  <a className="w-full font-medium transition-all group-hover:pl-3">
+                    Acerca de
+                  </a>
                 </Link>
               </li>
             </ul>
 
+            <div className="mt-6 border-t border-gray-200 pt-6 dark:border-gray-200/10"></div>
             <IconButton
               variant="ghost"
               aria-label="Close Navigation Menu"
