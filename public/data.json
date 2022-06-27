@@ -1,12 +1,12 @@
 [
     {
         "person": {
-            "name": "Gustavo",
+            "name": "Elmer Gustavo",
             "img": "https://avatars.githubusercontent.com/u/42653934?v=4",
             "skill": "Desarrollador FullStack"
         },
-        "quote": "tema",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis tincidunt. Ut et sapien ac velit bibendum maximus. Aenean quam justo, varius a hendrerit eu, egestas a lacus. Sed placerat ante vel enim consectetur venenatis. In nec quam scelerisque, pulvinar ante eget, sodales velit. Vestibulum congue ac sapien nec ornare. Fusce tempor velit felis, non finibus sapien sagittis at."
+        "quote": "Beneficio de la Relajacion",
+        "content": "La relajación nos aporta varios beneficios que van más allá de la sensación subjetiva del bienestar y del placer. Por el otro, somos perfectamente capaces de crear nuestros propios momentos de relajación, sin esperar a que esta llegue cuando le apetezca, al margen de nuestra voluntad."
     },
     {
         "person": {
