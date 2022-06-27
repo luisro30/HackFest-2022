@@ -37,13 +37,12 @@ const Tabs = () => {
         {/* Content 1 */}
         <Tab.Panel>
           <h2 className="mt-5 md:mt-10 font-semibold text-4xl tracking-[-0.4px] md:text-5xl">
-            Family Gathering
+          Malnutrición
           </h2>
           <p className="my-3 md:my-5 px-10 md:p-0 text-[15px] md:text-2xl font-normal leading-[25px] tracking-[-0.19px] w-[327px] md:w-[457px] xl:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            voluptate ducimus vel porro voluptatibus itaque exercitationem eius!
-            Ea omnis ut, nobis voluptatibus doloremque, sed ullam, dolorum alias
-            illo ab magni!
+          Ocurre cuando el cuerpo no obtiene suficientes nutrientes. Las causas son una dieta deficiente, trastornos digestivos y otras 
+          enfermedades.Los síntomas son fatiga, mareos y pérdida de peso. La desnutrición no tratada puede causar retraso mental o 
+          incapacidad física. El tratamiento debe enfocarse en las afecciones subyacentes y el reemplazo de los nutrientes faltantes.
           </p>
         
         </Tab.Panel>
@@ -51,13 +50,12 @@ const Tabs = () => {
         {/* Content 2 */}
         <Tab.Panel>
           <h2 className="mt-5 md:mt-10 font-semibold text-4xl tracking-[-0.4px] md:text-5xl">
-            Special Events
+          La importancia del desayuno
           </h2>
           <p className="my-3 md:my-5 px-10 md:p-0 text-[15px] md:text-2xl font-normal leading-[25px] tracking-[-0.19px] w-[327px] md:w-[457px] xl:text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            laboriosam cum atque iusto, nesciunt laborum temporibus modi,
-            excepturi eveniet veniam sapiente provident voluptates! Autem
-            deserunt quam quisquam harum nesciunt voluptates!
+          El desayuno es considerado la comida más importante del día debido a que los alimentos que se ingieren son los primeros después de 
+          un largo periodo de ayuno derivado de las horas en las que se está dormido; el desayuno además precede las horas del día en las que
+          se lleva mayor actividad y por lo tanto, mayor gasto de energía.
           </p>
 
         </Tab.Panel>

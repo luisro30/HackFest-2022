@@ -1,23 +1,35 @@
 export const info = [
   {
-    title: "Lorem ipsum dolor sit amet, consectetur",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lectus ex, cursus id faucibus quis, cursus suscipit enim. Quisque porta lobortis vulputate. Suspendisse potenti. Quisque imperdiet id ex a vulputate. Vivamus pulvinar dictum porta. In gravida at tellus eget consectetur. In urna mauris, lacinia ut elementum sed, sollicitudin non justo. Pellentesque in rutrum augue, quis tincidunt dolor. In nisi tellus, consectetur feugiat pretium sit amet, venenatis eu massa. Ut eu ligula facilisis, aliquam dui in, eleifend massa.`,
+    title: "POR QUÉ ES IMPORTANTE",
+    description: `Su objetivo principal es garantizar una vida sana y promover el biennestar
+     de todos a todas las edades, ya que es importante para la construccion de una sociedad
+     prospera. En los últimos años en la mejorar de la salud y el bienestar de las personas,
+     persisten desigualdad en el acceso a la asistencia sanitaria.
+      El acceso a la salud y el bienestar es un derecho humano.`,
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetur",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lectus ex, cursus id faucibus quis, cursus suscipit enim. Quisque porta lobortis vulputate. Suspendisse potenti. Quisque imperdiet id ex a vulputate. Vivamus pulvinar dictum porta. In gravida at tellus eget consectetur. In urna mauris, lacinia ut elementum sed, sollicitudin non justo. Pellentesque in rutrum augue, quis tincidunt dolor. In nisi tellus, consectetur feugiat pretium sit amet, venenatis eu massa. Ut eu ligula facilisis, aliquam dui in, eleifend massa.`,
+    title: "¿Qué puedo hacer para ayudar?",
+    description: `Todos podemos empezar por promover y proteger nuestra propia salud y la de nuestro
+    entorno, tomando desiciones bien informadas,practicando relaciones sexuales seguras y
+    vacunando a nuestros hijos. Podemos actuar a través de las
+    escuelas, clubes, equipos y
+    organizaciones para promover
+    una mejor salud para todos,
+    especialmente para los más
+    vulnerables, como las mujeres
+    y los niños. `,
   },
 ];
 
 export const menusMobile = [
   {
-    imgSrc: "/images/homepage/salmon-mobile@2x.jpg",
+    imgSrc: "/images/homepage/vida_sana.jpg",
     name: "Seared Salmon Fillet",
     description: `Our
 		locally sourced salmon served with a refreshing buckwheat summer salad.`,
   },
   {
-    imgSrc: "/images/homepage/beef-mobile@2x.jpg",
+    imgSrc: "/images/homepage/pexels-cdc-3992931.jpg",
     name: "Rosemary Filet Mignon",
     description: `Our prime beef served to your taste with a
 		delicious choice of seasonal sides.`,

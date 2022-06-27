@@ -12,10 +12,10 @@
         "person": {
             "name": "Jose Daniel",
             "img": "https://avatars.githubusercontent.com/u/42653664?v=4",
-            "skill": "Desarrollador FullStack"
+            "skill": "Desarrollador Backend, experiencia trabajando en base de datos relacional con MySQL y base de datos no relacional MongoDB. Me gusta el trabajar con APIs usando Node JS y el análisis de datos con Python. "
         },
-        "quote": "TEMA",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis tincidunt. Ut et sapien ac velit bibendum maximus. Aenean quam justo, varius a hendrerit eu, egestas a lacus. Sed placerat ante vel enim consectetur venenatis. In nec quam scelerisque, pulvinar ante eget, sodales velit. Vestibulum congue ac sapien nec ornare. Fusce tempor velit felis, non finibus sapien sagittis at."
+        "quote": "Sobre Mi",
+        "content": "Mi nombre es José Daniel Tistoj Reyes, me gusta que me llamen Daniel. Soy un aficionado al metal, principalmente al género de Black metal progresivo, mi banda favorita es White Ward. Me gustan los animales, en especial los gatos. Me gusta el café, en especial en métodos, con un tueste más claro para conseguir notas más dulces. Me gusta mucho leer, sobre todo de temática de terror, y me gusta mucho la literatura del siglo de oro español, en especial la literatura de Cervantes. "
     },
     {
         "person": {
@@ -23,8 +23,8 @@
             "img": "https://avatars.githubusercontent.com/u/38712078?v=4",
             "skill": "Desarrollador FullStack"
         },
-        "quote": "TEMA",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium nisi risus, at facilisis turpis mollis ti"
+        "quote": "Mensaje",
+        "content": "La felicidad radica, ante todo, en la salud"
     },
     {
         "person": {
