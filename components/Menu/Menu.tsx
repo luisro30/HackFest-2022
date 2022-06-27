@@ -7,6 +7,7 @@ const topCompaniesItems = [
     img: "/images/img-cards-menu/ejercicio.jpg",
     title: "La importancia del ejercicio",
     info: "La actividad física regular puede mejorar la fuerza muscular y aumentar la resistencia.",
+    alt: "imagen"
   },
   {
     img: "/images/img-cards-menu/vacuna.jpg",
@@ -24,6 +25,7 @@ export const Menu = () => {
                 <img
                 className="rounded-lg shadow-2xl w-200 h-96"
                 src={item.img}
+                alt={item.alt}
                 />
                 <div className="justify-between p-6  mx-8">
                 <h1 className="mb-2 text-2xl font-bold tracking-tigh">

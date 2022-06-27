@@ -7,6 +7,7 @@ const topCompaniesItems = [
     title: "Cuidado con los azúcares",
     info: "La OMS hace énfasis en la importancia de reducir el consumo de azúcares (azúcar de mesa, jarabes o bebidas azucaradas). Ya que la ingesta excesiva de ellos puede aumentar el riesgo de sufrir obesidad y diabetes. Estos alimentos solo pueden constituir un 10% o menos de tu ingesta calórica diaria. Esto equivale a un poco menos de 250 mL de tu gaseosa favorita",
     image: "/images/img-cards-menu/img.jpg",
+    alt: "imagen"
   },
   {
     title: "Vigila la porción de grasas saturadas",
@@ -45,7 +46,7 @@ export const Cards = () => {
               {/*contenido de la tarjeta*/}
               <div className="max-w-md mx-auto bg-white rounded-lg shadow-2xl overflow-hidden transform transition duration-500 hover:scale-110 cursor-pointer">
                 {/*Sector de imagen*/}
-                <img className="w-full" src={item.image} />
+                <img className="w-full" src={item.image} alt={item.alt}/>
                 {/*Sector texto*/}
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{item.title}</div>

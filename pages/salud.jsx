@@ -6,11 +6,10 @@ import FamilyGathering from "../components/FamilyGathering"
  
 const health = () => {
   return (
-    <ThemeProvider>
-      <Header />
+    <>
       <Middle />
       <FamilyGathering />
-    </ThemeProvider>
+    </>
   )
 }
 
