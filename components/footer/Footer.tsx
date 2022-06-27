@@ -1,28 +1,24 @@
 import React from 'react'
-import Image from 'next/image'
-import img from "../../assets/github.png"
+import Link from 'next/link'
 
 export const Footer = () => {
   return (
     <>
-     <footer className=' bg-gradient-to-r from-green-500 to-green-800 flex flex-row items-center justify-center flex-wrap gap-8'>
-      <div className='w-64 text-center py-5 text-white text-lg'>
-        <p>Si deseas se colaborardor, puedes darle click al icono de GitHub</p>
-      </div>
-      <div>
-        <a href="https://github.com/luisro30/HackFest-2022">
-        <div className='w-20'>
-          <Image
-            src={img}
-            alt= "corporate"
-          />
-        </div>
-        </a>
-      </div>
-      <div className='w-64 text-center py-5 text-white text-lg'>
-        <p>“Aquellos que piensan que no tienen tiempo para una 
-          alimentación saludable tarde o temprano encontrarán 
-          tiempo para la enfermedad”</p>
+     <footer className=' bg-gradient-to-r from-green-500 to-green-800 flex items-center justify-between bg-white py-2 px-2 shadow-lg sm:py-3 sm:px-8 text-white'>
+      <div className='pt-3 md:pt-10 px-4 xl:px-24'>
+        <div className='grid items-start'>
+            <h1>Mas informacion de Praedium</h1>
+            <p>La página de Praedium fue creada para el Hackathon que fue organizado el presente año (2022) para los estudiantes de ingeniería en informática y sistemas de la Universidad Rafael Landívar Campus Quetzaltenango, esta va orientada en uno de los 17 objetivos de desarrollo sostenible 2030 de la ONU, el objetivo en el cuál nos quisimos enfocar fue el objetivo número 3, el cual es "Bienestar y Salud".</p>
+          </div>
+
+          <div className=" ">
+            <h1 className='text-center'>Sección</h1>
+            <ul>
+              <li>Inicio</li>
+              <li>Salud Y Bienestar</li>
+              <li>Acerca De</li>
+            </ul>
+          </div>
       </div>
     </footer>
     </>
