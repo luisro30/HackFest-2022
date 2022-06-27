@@ -9,8 +9,7 @@ import Ready from "@/components/Ready";
 
 function Home() {
   return (
-    <ThemeProvider>
-      <Header />
+    <div>
       <Hero />
       <main className="mx-auto max-w-screen-xl px-6 sm:px-8">
         <div className="mt-16 space-y-20">
@@ -19,8 +18,8 @@ function Home() {
         </div>
       </main>
       <Ready />
-      <Footer />
-    </ThemeProvider>
+  
+    </div>
   );
 }
 

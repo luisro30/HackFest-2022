@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Button, IconButton } from "../Button";
 import { Transition } from "@headlessui/react";
-import img from "../../assets/guate.jpg"
+import img from "../../assets/banner.svg"
 
 const Hero = () => {
   const [showBanner, setShowBanner] = useState(true);
