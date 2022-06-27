@@ -26,18 +26,17 @@
     <td align="center"> <img align="center" src="https://github.com/BhavyaCodes/portfolio/blob/main/public/assets/icons/nextjs.svg" alt="nextjs logo" width="100" /></td>
 		<td align="center"> <img align="center" src="https://github.com/BhavyaCodes/portfolio/blob/main/public/assets/icons/react.png" alt="react logo" width="100" /></td>
 		<td align="center"> <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png" alt="tailwindcss " width="100" /></td>
-		<td align="center"> <img align="center" src="https://www.gstatic.com/devrel-devsite/prod/v2325d8c952b9b608081f2b039989eacb0148117feedf74c3efc58771dfb973db/firebase/images/lockup.svg" alt="framer-motion logo" width="100" /></td>
+		
   </tr> 
    <tr>
       <td align="center"><b> Next.js </b></td>
 			<td align="center"><b> React </b></td>
 			<td align="center"><b> tailwindcss </b></td>
-			<td align="center"><b> Firebase </b></td>
   </tr>
 </table>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-![](https://github.com/elmergustavo/ecommerce-next/blob/main/assets/portada1.png)
+![](https://github.com/luisro30/HackFest-2022/blob/main/assets/Console.png)
 ## Getting Started
 
 First, run the development server:
