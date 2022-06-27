@@ -1,14 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const topCompaniesItems = [
   {
-    img: "https://image.shutterstock.com/image-photo/girl-does-sports-mask-on-600w-1721395486.jpg",
+    img: "/images/img-cards-menu/ejercicio.jpg",
     title: "La importancia del ejercicio",
     info: "La actividad física regular puede mejorar la fuerza muscular y aumentar la resistencia.",
   },
   {
-    img: "https://image.shutterstock.com/image-photo/pediatrician-giving-little-baby-injection-600w-1336328633.jpg",
+    img: "/images/img-cards-menu/vacuna.jpg",
     title: "La importancia de las vacunas",
     info: "Las vacunas constituyen una de las medidas sanitarias que mayor beneficio ha producido y sigue produciendo a la humanidad, previenen enfermedades que antes causaban grandes epidemias, muertes y secuelas.",
   },
@@ -21,7 +22,7 @@ export const Menu = () => {
             <Link href="#" key={i}>
             <div className="flex flex-col my-20 md:flex-row">
                 <img
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl w-200 h-96"
                 src={item.img}
                 />
                 <div className="justify-between p-6  mx-8">
