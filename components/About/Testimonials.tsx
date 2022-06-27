@@ -61,7 +61,9 @@ function Testimonials() {
   }, [setUsers]);
 
   return (
+    
     <section className="min-h-screen max-w-screen-xl flex flex-col justify-center mx-auto px-6 py-16">
+      <h2 className="font-bold text-5xl mb-8 mx-10 my-10">💚Aporte a la comunidad💚</h2>
       <ul
         className="flex flex-col lg:grid gap-6 card-group"
         style={{

@@ -13,15 +13,6 @@ const Middle = () => {
 			<div className='mt-20 md:mt-32 md:relative xl:flex xl:justify-between xl:items-center'>
 				<MealTwo />
 			</div>
-
-			<div className='xl:flex xl:justify-between xl:items-center'>
-				<MealOne />
-			</div>
-
-			{/* Meal Two Section  */}
-			<div className='mt-20 md:mt-32 md:relative xl:flex xl:justify-between xl:items-center'>
-				<MealTwo />
-			</div>
 		</div>
 	);
 };

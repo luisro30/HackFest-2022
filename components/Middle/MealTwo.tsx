@@ -29,11 +29,6 @@ const MealTwo = () => {
 				/>
 			</div>
 
-			{/* Pattern Lines */}
-			<div className='z-50 hidden md:block md:absolute w-[160px] h-[76px] top-[228px] xl:top-[282px] right-[-58px] xl:right-[-110px]'>
-				<PatternLines />
-			</div>
-
 			{/* Information Section  */}
 			<div className='xl:w-[445px] static md:relative xl:static'>
 				<PatternDevide />

@@ -38,6 +38,7 @@ export const Cards = () => {
   return (
     //Conjunto de tarjetas - contenedor principal
     <div className="container my-12 mx-auto px-4 md:px-12">
+       <h1 className="font-bold text-5xl mb-8 mx-10 my-10">Algunos consejos💚</h1>
       <div className="flex flex-wrap -mx-1 lg:-mx-4">
         {topCompaniesItems.map((item, i) => (
           <Link href="/#" key={i}>

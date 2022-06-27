@@ -37,13 +37,13 @@ const Ready = () => {
       </div>
 
       <div className="bg-transparent xl:h-[240px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute text-white flex flex-col justify-center items-center xl:flex-row xl:justify-between xl:px-[165px]">
-        <h2 className="my-5 font-semibold leading-10 tracking-[-0.4px] text-center text-[32px] sm:text-5xl  xl:w-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing  
+        <h2 className="my-5   text-center sm:text-5xl ">
+          Cuide su cuerpo. Es el único sitio que usted tiene para vivir.  
         </h2>
         <div className="text-center">
-          <Link href="/booking" passHref>
+          <Link href="/" passHref>
             <button className="uppercase bg-transparent hover:bg-white hover:text-[#17192B] transition-colors ease-in-out border px-[54px] py-6 text-[14px] font-semibold leading-4 tracking-[2px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum atque recusandae
+            Que la comida sea tu alimento, y tu alimento tu medicina.
             </button>
           </Link>
         </div>

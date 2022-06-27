@@ -1,14 +1,14 @@
-import Hero from "@/components/Banner/HeroBanner";
-import { Header } from "@/components/Header/Header";
-import { ThemeProvider } from "@/context/ThemeContext";
+
 import Middle from "../components/Middle/Middle"
 import FamilyGathering from "../components/FamilyGathering"
+import Ready from "@/components/Ready";
  
 const health = () => {
   return (
     <>
       <Middle />
       <FamilyGathering />
+      <Ready />
     </>
   )
 }

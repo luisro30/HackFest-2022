@@ -2,19 +2,14 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Button, IconButton } from "../Button";
 import { Transition } from "@headlessui/react";
-import img from "../../assets/banner.svg"
+import img from "../../assets/banner.svg";
 
 const Hero = () => {
   const [showBanner, setShowBanner] = useState(true);
   return (
     <>
       <div className="relative h-[640px] w-full bg-red-500/20 sm:h-[55vh] md:h-[440px]">
-        <Image
-          src={img}
-          alt="corporate"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={img} alt="corporate" layout="fill" objectFit="cover" />
         <div className="absolute inset-0 bg-neutral-900/70">
           <div className="mx-auto max-w-screen-lg">
             <div className="m-6 min-h-[60px]">
@@ -28,11 +23,11 @@ const Hero = () => {
                 Salud y Bienestar
               </h1>
               <span className="mt-6 text-xl text-white sm:text-2xl">
-                Lorem Ipsum
+                La salud es la mayor posesión. La alegría es el mayor tesoro. La
+                confianza es el mayor amigo (Lao Tzu)
               </span>
 
-              <div className="mt-8">
-              </div>
+              <div className="mt-8"></div>
             </div>
           </div>
         </div>
@@ -60,7 +55,8 @@ const HeroInnerBanner: React.FC<{ show: boolean; onClose: () => void }> = ({
     >
       <div className="relative rounded bg-gradient-to-r from-green-500 to-green-800 py-3 px-8 text-center text-white shadow-lg md:rounded-full">
         <p>
-          Bienvenidos a <span className="font-bold">praedium</span>. Haz de ti una prioridad.
+          Bienvenidos a <span className="font-bold">praedium</span>. Haz de ti
+          una prioridad.
         </p>
         <span className="absolute top-1 right-1 sm:top-2 sm:right-2">
           <IconButton
@@ -89,16 +85,15 @@ const HeroInnerBanner: React.FC<{ show: boolean; onClose: () => void }> = ({
   );
 };
 
-
 function HeroBottomCard() {
   return (
     <div className="bg-neutral-900 p-4">
       <span className="block text-center text-lg text-white">
-        vLorem Ipsum{" "}
-        <span className="bg-gradient-to-r from-green-700 via-green-500 to-green-500 bg-clip-text align-middle text-2xl font-black tracking-widest text-transparent">
-          Lorem Ipsum
+        {" "}
+        <span className="bg-gradient-to-r from-green-700 via-green-500 to-green-500 bg-clip-text align-middle text-xl font-black tracking-widest text-transparent">
+          El que tiene salud, tiene esperanza; el que tiene esperanza, lo tiene
+          todo
         </span>{" "}
-        Lorem Ipsum
       </span>
     </div>
   );

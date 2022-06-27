@@ -1,7 +1,7 @@
 import Hero from "@/components/Banner/HeroBanner";
 import { Cards } from "@/components/Cards/Cards";
 import { Menu } from "@/components/Menu/Menu";
-import Ready from "@/components/Ready";
+
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
           <Menu />
         </div>
       </main>
-      <Ready />
+     
     </div>
   );
 }

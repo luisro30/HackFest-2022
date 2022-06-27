@@ -31,7 +31,7 @@ const About = () => {
   return (
     <div>
       <div className="justify-between">
-        <h1 className="font-bold text-5xl mb-8 mx-10 my-10">Sobre nosotros</h1>
+        <h2 className="font-bold text-5xl mb-8 mx-10 my-10">Sobre nosotros</h2>
         <div className="mb-4 font-normal mx-10">
           <p>
             Somos un equipo de desarrollo de la carrera de ingeniería en
