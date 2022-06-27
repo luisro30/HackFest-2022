@@ -12,10 +12,10 @@
         "person": {
             "name": "Jose Daniel",
             "img": "https://avatars.githubusercontent.com/u/42653664?v=4",
-            "skill": "Desarrollador Backend, experiencia trabajando en base de datos relacional con MySQL y base de datos no relacional MongoDB. Me gusta el trabajar con APIs usando Node JS y el análisis de datos con Python. "
+            "skill": "Desarrollador Backend"
         },
-        "quote": "Sobre Mi",
-        "content": "Mi nombre es José Daniel Tistoj Reyes, me gusta que me llamen Daniel. Soy un aficionado al metal, principalmente al género de Black metal progresivo, mi banda favorita es White Ward. Me gustan los animales, en especial los gatos. Me gusta el café, en especial en métodos, con un tueste más claro para conseguir notas más dulces. Me gusta mucho leer, sobre todo de temática de terror, y me gusta mucho la literatura del siglo de oro español, en especial la literatura de Cervantes. "
+        "quote": "La buena alimentacion",
+        "content": "a alimentación saludable es aquella que proporciona los nutrientes que el cuerpo necesita para mantener el buen funcionamiento del organismo, conservar o restablecer la salud, minimizar el riesgo de enfermedades, garantizar la reproducción, gestación, lactancia, desarrollo y crecimiento adecuado"
     },
     {
         "person": {
