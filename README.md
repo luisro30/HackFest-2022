@@ -35,8 +35,10 @@
   </tr>
 </table>
 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ![](https://github.com/luisro30/HackFest-2022/blob/main/assets/Console.png)
+![](https://github.com/luisro30/HackFest-2022/blob/main/assets/Screenshot.png)
 ## Getting Started
 
 First, run the development server:
