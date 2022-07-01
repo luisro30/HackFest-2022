@@ -10,7 +10,7 @@ const MealTwo = () => {
 			{/* Mobile image  */}
 			<div className='shadow-3xl md:hidden'>
 				<Image
-					src='/images/homepage/locally-sourced-mobile@2x.jpg'
+					src='/images/homepage/hospital1.jpg'
 					alt='locally sourced mobile'
 					layout='responsive'
 					width={654}
@@ -21,7 +21,7 @@ const MealTwo = () => {
 			{/* Tablet image */}
 			<div className='hidden md:shadow-3xl md:block xl:hidden'>
 				<Image
-					src='/images/homepage/locally-sourced-tablet@2x.jpg'
+					src='/images/homepage/hospital1.jpg'
 					alt='locally sourced tablet'
 					layout='responsive'
 					width={573}
@@ -30,7 +30,7 @@ const MealTwo = () => {
 			</div>
 
 			{/* Information Section  */}
-			<div className='xl:w-[445px] static md:relative xl:static'>
+			<div className='xl:w-[445px] static md:relative xl:static '>
 				<PatternDevide />
 				<Info title={info[1].title} description={info[1].description} />
 
@@ -48,7 +48,7 @@ const MealTwo = () => {
 			{/* Desktop image */}
 			<div className='hidden md:shadow-3xl xl:flex relative xl:justify-cente xl:items-center'>
 				<Image
-					src='/images/homepage/locally-sourced-desktop@2x.jpg'
+					src='/images/homepage/hospital1.jpg'
 					alt='locally sourced desktop'
 					width={540}
 					height={720}

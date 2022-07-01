@@ -13,7 +13,7 @@ const MealOne = () => {
 			</div>
 			<div className='shadow-3xl -mt-20 md:hidden'>
 				<Image
-					src= {img}
+					src= {info[0].img}
 					alt='enjoyable place mobile'
 					layout='responsive'
 					width={654}
@@ -24,7 +24,7 @@ const MealOne = () => {
 			{/* tablet image */}
 			<div className='hidden md:shadow-3xl md:block xl:hidden'>
 				<Image
-					src= {img}
+					src= {info[0].img}
 					alt='enjoyable place tablet'
 					layout='responsive'
 					width={573}
@@ -35,14 +35,14 @@ const MealOne = () => {
 			{/* desktop image */}
 			<div className='hidden md:shadow-3xl xl:flex relative xl:justify-cente xl:items-center'>
 				<Image
-					src= {img}
+					src= {info[0].img}
 					alt='enjoyable place desktop'
 					width={540}
 					height={720}
 				/>
 			</div>
 			{/* Information Section  */}
-			<div className='xl:w-[445px]'>
+			<div className='py-20 xl:w-[445px]'>
 			
 				<Info title={info[0].title} description={info[0].description} />
 			</div>
