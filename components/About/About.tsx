@@ -31,19 +31,12 @@ const About = () => {
   return (
     <div>
       <div className="justify-between">
-        <h2 className="font-bold text-5xl mb-8 mx-10 my-10">Sobre nosotros</h2>
+        <h2 className="font-bold text-5xl mb-8 mx-10 my-10">Sobre nosotros </h2>
         <div className="mb-4 font-normal mx-10">
           <p>
-            Somos un equipo de desarrollo y estudiantes de ingeniería en
-            informática y sistemas de la Universidad Rafael Landívar Campus San
-            Alberto Hurtado, S. J. de Quetzaltenango, apasionados por la programación en
-            distintas ramas, tanto para la parte de diseño Frontend, como la
-            parte de Backend, con experiencia en estas dos ramas, tanto para el
-            diseño web y el diseño mobile, usando tecnologías como: React,
-            tailwind, y Angular. Con experiencia en el levantamiento de APIs,
-            con tecnologías como Node JS, también con en el manejo de base de
-            datos, tanto relacional, usando en distintos proyectos MySQL, como
-            no relacional, usando MongoDB.{""}
+            Somos estudiantes de ingeniería en informática y sistemas de la
+            Universidad Rafael Landívar Campus San Alberto Hurtado, S. J. de
+            Quetzaltenango.
           </p>
         </div>
       </div>

@@ -33,7 +33,7 @@ export const Header = () => {
 
             <Link href="/salud" passHref>
               <Button variant="ghost" as="a" className="hidden md:inline-flex">
-                Salud y Bienestar
+                Salud Bienestar 
               </Button>
             </Link>
             <Link href="/about" passHref>

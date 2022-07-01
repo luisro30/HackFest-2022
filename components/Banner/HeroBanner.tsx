@@ -23,8 +23,7 @@ const Hero = () => {
                 Salud y Bienestar
               </h1>
               <span className="mt-6 text-xl text-white sm:text-2xl">
-                La salud es la mayor posesión. La alegría es el mayor tesoro. La
-                confianza es el mayor amigo (Lao Tzu)
+              Combatir la pobreza requerirá la participación y esfuerzos coordinados de todos los actores del desarrollo de la sociedad guatemalteca.
               </span>
 
               <div className="mt-8"></div>
