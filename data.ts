@@ -19,6 +19,26 @@ export const info = [
     vulnerables, como las mujeres
     y los niños. `,
   },
+  {
+    title: "Fortalecer	la	gestión	del	Ministerio	de	Salud",
+    description: `Es fundamental	tomar	control	sobre	los	procesos	de	la	logística	de	abastecimiento	
+    de	 medicamentos	 y	 suministros,	 la	 administración	 del	 recurso	 humano,	 los	
+    procesos	 de	 compras	 y	 contrataciones,	 los	 sistemas	 de	 información,	 y	 la	
+    supervisión.	 	 Concretamente	 se	 debe	 integrar	 e	 incorporar	 un	 equipo	 de	
+    especialistas	en	estos	 procesos	 críticos	 tanto	a	 nivel	 central	 como	en	 unidades	
+    ejecutoras	claves	del	Ministerio	de	Salud	para	que	desarrollen	planes	de	acción	
+    que	puedan	monitorearse	a	través	de un	mando	de	control.`,
+  },
+  {
+    title: "Invertir	en	agua	y	saneamiento	ambiental	en	las	zonas	rurales	del	país",
+    description: `Una	de	las	prioridades	del	lado	de	la	demanda	para	que	el	sistema	de	salud	logre	
+    los	 resultados	esperados	es	 que	 la	 población	 cubra	 sus	 necesidades	 básicas	 de	
+    agua	 y	 eliminación	 de	 excretas.	 	 Concretamente	 se	 sugiere	 abordar	 de	 una	
+    manera	mucho	más	proactiva	a	las	comunidades	más	aisladas	del	área	rural	a	fin	
+    de	 lograr	 su	 involucramiento	 para	 dar	 sostenibilidad	 al	 proceso	 de	 lograr	 una	
+    mayor	salubridad.`,
+  },
+  
 ];
 
 export const menusMobile = [
